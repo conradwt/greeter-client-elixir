@@ -6,7 +6,7 @@ Start iex session with `iex -S mix`.
 
 Related repos:
 
-- [Greeter Server](https://github.com/conrdwwt/greeter-server-elixir)
+- [Greeter Server](https://github.com/conradwt/greeter-server-elixir)
 - [Greeter Proto](https://github.com/conradwt/greeter-proto-elixir)
 
 ## License
