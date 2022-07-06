@@ -1,4 +1,4 @@
-#  2. setup pokemon client to talk to pokemon repo app
+#  2. setup greeter client to talk to greeter server app
 defmodule GreeterClient.Client do
   # 3. alias stub that we use to communicate
   alias Greeterapi.GreeterService.Stub
@@ -9,7 +9,7 @@ defmodule GreeterClient.Client do
     HelloResponse
   }
 
-  # 4. setup url of pokemon repo
+  # 4. setup url of greeter server
   @gretter_server_url "localhost:8080"
 
   @spec say_hello(String.t()) :: {:ok, String.t()} | {:error, any}
