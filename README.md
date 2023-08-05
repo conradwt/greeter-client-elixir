@@ -2,9 +2,19 @@
 
 Client app. Makes gRPC requests to greeter server app.
 
-Start iex session with `iex -S mix`.
+1. start iex session
 
-Related repos:
+   ```zsh
+   iex -S mix
+   ```
+
+2. invoke the gRPC client function
+
+   ```elixir
+   GreeterClient.Client.say_hello("Conrad")
+   ```
+
+## Related repos
 
 - [Greeter Server](https://github.com/conradwt/greeter-server-elixir)
 - [Greeter Proto](https://github.com/conradwt/greeter-proto-elixir)

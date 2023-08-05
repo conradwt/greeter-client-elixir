@@ -26,5 +26,7 @@ defmodule GreeterClient.Client do
     end
   end
 
-  defp build_request(name), do: {:ok, HelloRequest.new(name: name)}
+  defp build_request(name) do
+    {:ok, Protobuf.Builder.new(HelloRequest, name: name)}
+  end
 end
